@@ -1,0 +1,181 @@
+@media screen and (min-width: 428px) {
+    .container {
+        max-width: 398px;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 738px;
+
+    }
+    .main-page-section {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-tab.jpg);
+    }
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .main-page-section {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-tab2x.jpg)
+            }
+        }
+
+    .list-advantages {
+        padding: 96px 0;
+        gap: 72px 24px;
+    }
+
+    .item-advantage {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .advantage {
+        text-align: left;
+    }
+
+    .team {
+        padding: 96px 0;
+    }
+
+    .list-team {
+        gap: 64px 24px;
+
+    }
+
+    .photo-member {
+        width: calc((100% - 24px) / 2);
+        max-width: 264px;
+
+    }
+
+    .customers-list {
+        gap: 72px 24px;
+    }
+
+    .customers-item {
+        width: calc((100% - 48px) / 3)
+    }
+    .div-footer {
+        max-width: 584px;
+        padding: 0 16px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+        padding-bottom: 0;
+        text-align: left;
+    }
+    .subscribe-form {
+        display: flex;
+         margin: 0 auto;
+
+        }
+    .social-media-list {
+        margin: 0 auto;
+    }
+        .text-footer {
+            padding-bottom: 0;
+        }
+    .div-footer-third {
+        align-items: baseline;
+        
+    }
+     .input-subscribe {
+        min-width: 268px;
+     }
+    .page-title {
+        font-size: 56px;
+        line-height: 1.07;
+         }
+}
+
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+    }
+ .main-page-section {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+ }
+ @media (min-device-pixel-ratio: 2),
+ (min-resolution: 192dpi),
+ (min-resolution: 2dppx) {
+     .main-page-section {
+         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 2x.jpg);
+     }
+ }
+    .advantage {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    .list-advantages {
+        gap: 24px;
+    }
+
+    .item-advantage {
+        width: calc((100% - 72px) / 4);
+    }
+
+    .icon-adv {
+        display: flex;
+    }
+
+    .advantage-section {
+        padding: 120px 0;
+    }
+
+    .doing-section {
+        display: flex;
+    }
+
+    .team {
+        padding: 120px 0;
+
+
+    }
+
+    .photo-member {
+        width: calc((100% - 72px) / 4);
+    }
+
+    .list-team {
+        gap: 24px;
+    }
+
+    .customers {
+        padding: 120px 0;
+    }
+
+    .customers-list {
+        gap: 24px;
+    }
+
+    .customers-item {
+        width: calc((100% - 120px) / 6)
+    }
+     .page-footer {
+        padding: 100px 0;
+     }
+    .div-footer {
+        display: flex;
+    }
+     .div-footer-first {
+        margin-right: 120px;
+        text-align: left;
+     }
+     .text-footer {
+        max-width: 264px;
+     }
+    .div-footer-third {
+    
+    }
+    .input-subscribe {
+        width: 264px;
+        padding-left: 16px;
+    }
+        .main-page-section{
+         padding: 112px 0;
+}
+}
