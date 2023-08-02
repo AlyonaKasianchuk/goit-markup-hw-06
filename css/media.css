@@ -123,9 +123,10 @@
         .adress:hover {
             color: var(--ocean, #404BBF)
         }
-    .main-page-section {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-tab.jpg);
-    }
+        .main-page-section {
+         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-tab.jpg);
+        }
+
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
@@ -177,10 +178,13 @@
         gap: 72px 24px;
         padding-bottom: 0;
         text-align: left;
+        align-items: center;
+        justify-content: space-between;
+        
     }
     .subscribe-form {
         display: flex;
-         margin: 0 auto;
+        
 
         }
     .social-media-list {
@@ -211,7 +215,9 @@
         }
  .main-page-section {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
- }
+    padding: 188px 0;
+}
+ 
  @media (min-device-pixel-ratio: 2),
  (min-resolution: 192dpi),
  (min-resolution: 2dppx) {
@@ -276,6 +282,10 @@
      }
     .div-footer {
         display: flex;
+        padding: 0;
+        align-items: baseline;
+        gap: 0px;
+       
     }
      .div-footer-first {
         margin-right: 120px;
@@ -285,13 +295,13 @@
         max-width: 264px;
      }
     .div-footer-third {
-    
+    padding-left: 80px;
     }
     .input-subscribe {
         width: 264px;
         padding-left: 16px;
+        
     }
-        .main-page-section{
-         padding: 112px 0;
-}
+    
+        
 }
