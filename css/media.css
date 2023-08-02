@@ -8,6 +8,8 @@
 
 
 }
+/* -----------------------TAB-------------------------------- */
+
 
 @media screen and (min-width: 768px) {
     .container {
@@ -193,18 +195,23 @@
         .text-footer {
             padding-bottom: 0;
         }
+    .div-footer-first {
+        text-align: left;
+    }
     .div-footer-third {
         align-items: baseline;
         
     }
      .input-subscribe {
         min-width: 268px;
+        padding: 16px;
      }
     .page-title {
         font-size: 56px;
         line-height: 1.07;
          }
 }
+/* ------------------DESKTOP----------------------------- */
 
 @media screen and (min-width: 1158px) {
     .container {
@@ -295,12 +302,10 @@
         max-width: 264px;
      }
     .div-footer-third {
-    padding-left: 80px;
+         padding-left: 80px;
     }
     .input-subscribe {
         width: 264px;
-        padding-left: 16px;
-        
     }
     
         
