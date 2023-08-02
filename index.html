@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
-   <!-- <header class="header-section">
+   <header class="header-section">
         <div class="div-header container">
        <nav class="page-nav">
             <a class="logo link" href="./index.html">Web<span class="logo-header">Studio</span></a>
@@ -31,8 +31,43 @@
             <li class="link-adress link"><a class="adress link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
         </address>
+        <button class="hamburger-btn" type="button"  data-menu-open><svg class="icon-hamburger" width="32" height="22">
+            <use href="./images/icons.svg#menu-hamburger"></use>
+        </svg></button>
         </div>
-    </header>-->
+        <div class="mob-menu is-hidden" data-menu>
+           <div class="mob-top-part"> <button class="mob-menu-close" type="button" data-menu-close><svg class="mob-menu-icon" width="8" height="8">
+            <use href="./images/icons.svg#close-black-18dp (2) 1"></use>
+        </svg></button>
+        <ul class="mob-list-nav list">
+            <li class="mob-link-nav link"><a class="mob-navigation link current" href="./index.html">Studio</a></li>
+            <li class="mob-link-nav link"><a class="mob-navigation link" href="./portfolio.html">Portfolio</a></li>
+            <li class="mob-link-nav link"><a class="mob-navigation link" href="">Contacts</a></li>
+        </ul>
+        </nav></div>
+    <div> <address class="mob-page-adress">
+            <ul class="mob-list-adress list">
+                <li class="mob-link-adress link"><a class="mob-adress-number link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                <li class="mob-link-adress link"><a class="mob-adress-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                 </ul>
+        </address> 
+        <ul class="mob-social-media-list list">
+            <li class="mob-social-media-item"><a href="" class="social-media-link"><svg class="social-media" width="24" height="24">
+                        <use href="./images/icons.svg#instagram 2"></use>
+                    </svg></a></li>
+            <li class="mob-social-media-item"><a href="" class="social-media-link"><svg class="social-media" width="24" height="24">
+                        <use href="./images/icons.svg#twitter 1"></use>
+                    </svg></a></li>
+            <li class="mob-social-media-item"><a href="" class="social-media-link"><svg class="social-media" width="24" height="24">
+                        <use href="./images/icons.svg#facebook 1"></use>
+                    </svg></a></li>
+            <li class="mob-social-media-item"><a href="" class="social-media-link"><svg class="social-media" width="24" height="24">
+                        <use href="./images/icons.svg#linkedin 1"></use>
+                    </svg></a></li>
+        </ul>
+        </div>
+        </div>
+    </header>
     <main>
 <section class="main-page-section">
     <div class="container-first container">
@@ -55,9 +90,9 @@
     <div class="container-third container">
     <h2 class="title-doing">What are we doing</h2>
     <ul class="list-doing list">
-    <li class="doing"><img src="./images/img1.jpg" alt="computer" width="360" height="300"></li>
-    <li class="doing"><img src="./images/img2.jpg" alt="screens" width="360" height="300"></li>
-    <li class="doing"><img src="./images/img3.jpg" alt="phone" width="360" height="300"></li>
+    <li class="doing"><img src="./images/img1.jpg" srcset="./images/img1.jpg 1x, ./images/computer2x.jpg 2x" alt="computer" width="360" height="300"></li>
+    <li class="doing"><img src="./images/img2.jpg" srcset="./images/img1.jpg 1x, ./images/creens2x.jpg 2x"  alt="screens" width="360" height="300"></li>
+    <li class="doing"><img src="./images/img3.jpg" srcset="./images/img1.jpg 1x, ./images/phone2x.jpg 2x"  alt="phone" width="360" height="300"></li>
     </ul>
     </div>
 </section>
@@ -247,5 +282,6 @@
     </div>
 </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 </html>
