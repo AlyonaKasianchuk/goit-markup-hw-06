@@ -197,7 +197,7 @@
         gap: 72px 24px;
         padding-bottom: 0;
         text-align: left;
-        align-items: center;
+        /* align-items: center; */
         
     }
     .subscribe-form {
@@ -218,7 +218,11 @@
         }
     .div-footer-first {
         text-align: left;
+        padding-bottom: 0;
     }
+        .div-footer-second {
+        padding-bottom: 0;
+        }
     .div-footer-third {
         align-items: baseline;
         
