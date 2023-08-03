@@ -1,7 +1,21 @@
+@media screen and (max-width: 420px) {
+.mob-adress-number {
+        font-size: 24px;
+    }
+        .mob-social-media-list {
+            gap: 32px;
+        }
+        .modal {
+            width: 90%;
+            
+        }
+}
+
 @media screen and (min-width: 428px) {
     .container {
-        max-width: 398px;
+        max-width: 426px;
     }
+    
        
        
     
@@ -13,8 +27,11 @@
 
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 738px;
+        max-width: 766px;
 
+    }
+        .logo {
+        margin-right: 120px;
     }
         .mob-menu {
             display: none;
@@ -49,9 +66,7 @@
             align-items: center;
             /* gap: 40px; */
             gap: 12px;
-            justify-content: flex-end;
-            flex-wrap: wrap
-            
+            flex-direction: column;
         }
     
         .link-adress {
@@ -107,7 +122,8 @@
         .adress {
             color: var(--primary-text-color);
             text-decoration: none;
-            font-size: 16px;
+            
+            font-size: 12px;
             line-height: 1.5;
             letter-spacing: 0.02em;
             list-style: none;
@@ -138,7 +154,6 @@
         }
 
     .list-advantages {
-        padding: 96px 0;
         gap: 72px 24px;
     }
 
@@ -164,7 +179,9 @@
         max-width: 264px;
 
     }
-
+    .container-fifth {
+        max-width: 582px;
+    }
     .customers-list {
         gap: 72px 24px;
     }
@@ -181,14 +198,18 @@
         padding-bottom: 0;
         text-align: left;
         align-items: center;
-        justify-content: space-between;
         
     }
     .subscribe-form {
         display: flex;
-        
-
+    }
+    .input-subscribe {
+           margin-bottom: 16px; 
         }
+    .label-subscribe {
+        
+    }
+        
     .social-media-list {
         margin: 0 auto;
     }
@@ -209,7 +230,10 @@
         font-size: 56px;
         line-height: 1.07;
          }
-}
+     .modal {
+         width: 408px;
+        }
+        }
 /* ------------------DESKTOP----------------------------- */
 
 @media screen and (min-width: 1158px) {
@@ -218,6 +242,7 @@
     }
         .list-adress {
             gap: 40px;
+            flex-direction: row;
         }
  .main-page-section {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
@@ -231,16 +256,21 @@
          background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 2x.jpg);
      }
  }
+    .adress {
+        font-size: 16px;
+    }
     .advantage {
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
     }
    
-
+        .description-adv{
+            font-weight: 400px;
+        }
     .list-advantages {
         gap: 24px;
-        padding: 120px 0;
+        
     }
 
     .item-advantage {
@@ -252,7 +282,7 @@
     }
 
     .advantage-section {
-        padding: 0;
+        padding: 120px 0;
     }
 
     .doing-section {
@@ -301,11 +331,11 @@
         max-width: 264px;
      }
     .div-footer-third {
-         padding-left: 80px;
+         margin-left: auto;
     }
     .input-subscribe {
         width: 264px;
     }
     
-        
+    
 }
