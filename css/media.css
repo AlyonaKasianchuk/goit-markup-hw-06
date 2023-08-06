@@ -204,7 +204,7 @@
         display: flex;
     }
     .input-subscribe {
-           margin-bottom: 16px; 
+           margin-bottom: 0; 
         }
     .label-subscribe {
         
@@ -218,10 +218,10 @@
         }
     .div-footer-first {
         text-align: left;
-        padding-bottom: 0;
+        margin-bottom: 0;
     }
         .div-footer-second {
-        padding-bottom: 0;
+        margin-bottom: 0;
         }
     .div-footer-third {
         align-items: baseline;
@@ -237,6 +237,21 @@
      .modal {
          width: 408px;
         }
+        .portfolio-section {
+            padding-top: 64px;
+            padding-bottom: 96px;
+        }
+        .list-filters {
+            justify-content: center;
+            margin-bottom: 64px;
+        }
+        .list-projects {
+            
+            gap: 72px 24px;
+        }
+         .link-project {
+            width: calc((100% - 24px) / 2);
+         }
         }
 /* ------------------DESKTOP----------------------------- */
 
@@ -257,7 +272,7 @@
  (min-resolution: 192dpi),
  (min-resolution: 2dppx) {
      .main-page-section {
-         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 2x.jpg);
+         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office2x.jpg);
      }
  }
     .adress {
@@ -317,6 +332,7 @@
     .customers-item {
         width: calc((100% - 120px) / 6)
     }
+
      .page-footer {
         padding: 100px 0;
      }
@@ -340,6 +356,16 @@
     .input-subscribe {
         width: 264px;
     }
-    
+    .list-filters {
+        justify-content: center;
+        margin-bottom: 72px;
+    }
+    .list-projects {
+        column-gap: 24px;
+        row-gap: 48px;
+}
+     .link-project {
+            width: calc((100% - 48px) / 3);
+        }
     
 }

@@ -556,11 +556,11 @@ text-align: center;
 .div-footer-first {
     /* margin-right:120px; */
     text-align: center;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     
 }
 .div-footer-second {
-padding-bottom: 72px;
+margin-bottom: 72px;
 }
 .text-footer {
     color: var(--cloud, #F4F4FD);
@@ -719,8 +719,9 @@ fill: var(--white);
 
 /* Portfolio */
 .portfolio-section {
-    padding-top: 96px;
-    padding-bottom: 120px;
+    /* padding-top: 96px;
+    padding-bottom: 120px; */
+    padding: 48px 0;
     margin: 0 auto;
 }
 .filter-btn {
@@ -762,19 +763,25 @@ fill: var(--white);
 .list-filters {
     list-style: none;
     display: flex;
-    justify-content: center;
-    gap: 24px;
-    margin-bottom: 72px;
+    flex-wrap: wrap;
+    justify-content: left;
+    /* justify-content: center; */
+    gap: 16px 24px;
+    /* margin-bottom: 72px; */
+    margin-bottom: 48px;
 }
 .list-projects {
     list-style: none;
     display: flex;
-    column-gap: 24px;
+    /* column-gap: 24px;
+   
+    row-gap: 48px; */
     flex-wrap: wrap;
-    row-gap: 48px;  
+    
+
 }
 .link-project {
-    width: calc((100% - 48px) / 3);
+    /* width: calc((100% - 48px) / 3); */
 }
 .item-link-project {
     display: block;
