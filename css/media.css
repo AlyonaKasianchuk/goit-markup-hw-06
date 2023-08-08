@@ -245,6 +245,9 @@
             justify-content: center;
             margin-bottom: 64px;
         }
+        .filter-btn {
+            padding: 12px 24px;
+        }
         .list-projects {
             
             gap: 72px 24px;

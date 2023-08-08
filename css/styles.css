@@ -733,7 +733,8 @@ fill: var(--white);
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    padding: 12px 24px;
+    /* padding: 12px 24px; */
+    padding: 8px 16px;
     border: 1px solid var(--btn-text);
     border-radius: 4px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -774,8 +775,8 @@ fill: var(--white);
     list-style: none;
     display: flex;
     /* column-gap: 24px;
-   
     row-gap: 48px; */
+    gap: 48px;
     flex-wrap: wrap;
     
 
